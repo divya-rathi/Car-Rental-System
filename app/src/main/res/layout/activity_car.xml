@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.loginpage.CarActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/addCarLayout"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/addCarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="serif"
+            android:text="ADD CAR"
+            android:textColor="#f00aa38e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/modelEditText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Enter model name"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/regNoEditText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Reg No."
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/mileageEditText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter mileage"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/makeEditText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter make"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/modelYearEditText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter model year"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/statusEditText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Status(Available/Unavialable)"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/categoryEditText"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Category"
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/addCarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:text="Add Car"
+            android:maxLines="1"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/removeCarLayout"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/removeCarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="serif"
+            android:text="REMOVE CAR"
+            android:textColor="#f00aa38e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regNoEditTextR"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Reg No."
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/removeCarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Remove Car" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/modifyCarLayout"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/modifyCarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="serif"
+            android:text="MODIFY CAR"
+            android:textColor="#f00aa38e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regNoEditText2"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Reg No."
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/modifyCarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Modify Car" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/modifyCarLayout1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/modifyCarTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="serif"
+            android:text="MODIFY CAR"
+            android:textColor="#f00aa38e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/modelEditTextm"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Enter model name"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/regNoEditTextm"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Reg No."
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/mileageEditTextm"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter mileage"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/makeEditTextm"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter make"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/modelYearEditTextm"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter model year"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/statusEditTextm"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Status"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/categoryEditTextm"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Category"
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/modifyCarButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="Modify Car" />
+
+    </LinearLayout>
+
+</RelativeLayout>
